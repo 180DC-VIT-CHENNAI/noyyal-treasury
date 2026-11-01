@@ -1,0 +1,15 @@
+buyer_id,name,country,currency,terms_days,credit_insured,share_of_fy26_sales
+BUY-01,Harrowgate Retail,United Kingdom,USD,105,True,0.20
+BUY-02,Northwind Apparel,United States,USD,120,False,0.13
+BUY-03,Blue Harbour Trading,United States,USD,75,True,0.08
+BUY-04,Maison Lune,France,EUR,120,True,0.05
+BUY-05,Rhein Textil,Germany,EUR,105,True,0.04
+BUY-06,Amsterdam Basics,Netherlands,EUR,75,False,0.03
+BUY-07,Cedar & Co,Canada,USD,75,False,0.06
+BUY-08,Southern Cross Wear,Australia,USD,90,False,0.05
+BUY-09,Nippon Style,Japan,USD,75,True,0.04
+BUY-10,Gulf Threads,United Arab Emirates,USD,75,False,0.04
+BUY-11,Singapore Trading,Singapore,USD,75,False,0.04
+BUY-12,Cape Union,South Africa,USD,90,False,0.03
+BUY-13,Andean Cotton,Chile,USD,120,False,0.03
+BUY-14,Maple Mills,Canada,USD,75,False,0.02

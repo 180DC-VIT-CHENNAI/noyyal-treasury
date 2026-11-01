@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "case_id": "c1-noyyal",
+  "team_id": "local",
+  "commit": "unknown",
+  "python": "3.11",
+  "entrypoints": {
+    "submit": "make submit",
+    "api": "uvicorn noyyal.api.app:app",
+    "policy": null
+  },
+  "files": {
+    "forecast.csv": "sha256:3469da89b322fd4337e751dd43fc8884bd199599536b1cd7cfd274c69430298a",
+    "buffer_plan.csv": "sha256:0d855df005f329d25b9a8a4cd17190c98dc3eeefc1651a249dedbf4c0645b6dc",
+    "hedge.json": "sha256:f159618b49bfb1fc6732bfc9be437ffa8929cd29b784211982beee4a4afbe158"
+  },
+  "memo": null,
+  "slides": null,
+  "bonus": []
+}

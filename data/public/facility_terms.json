@@ -1,0 +1,11 @@
+{
+  "cc_limit_inr": 600000000.0,
+  "cc_rate": 0.1025,
+  "overdraw_extra_rate": 0.02,
+  "overdraw_max_days": 3,
+  "liquid_yield": 0.064,
+  "liquid_settlement_days": 1,
+  "shortfall_penalty_inr": 5000000.0,
+  "covenant_breach_penalty_inr": 2500000.0,
+  "actual_day_basis": 365
+}

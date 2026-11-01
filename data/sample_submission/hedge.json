@@ -1,0 +1,19 @@
+{
+  "hedge_ratio": {
+    "USD": 1.0,
+    "EUR": 1.0
+  },
+  "tenor_policy": "SINGLE",
+  "forwards": [
+    {
+      "currency": "USD",
+      "notional_fcy": 11497097.03,
+      "maturity_date": "2026-10-30"
+    },
+    {
+      "currency": "EUR",
+      "notional_fcy": 2570174.02,
+      "maturity_date": "2026-10-30"
+    }
+  ]
+}
