@@ -64,6 +64,8 @@ def test_liquid_redemption_settles_t_plus_one():
             "liquid_fund_inr": 10_000_000.0,
         },
     )
-    # A T+1 redemption is still in the liquid fund on day 1.
-    assert result.final_liquid_inr == 10_000_000.0
+    # The redemption arrives on day 2; the liquid fund is 9m at the close and
+    # the CC bridge is 1m.  With a 5m target, the day-2 cash is not swept.
+    assert result.final_liquid_inr == 9_000_000.0
     assert result.final_cc_inr >= 1_000_000.0
+    assert result.final_cash_inr == 1_000_000.0
